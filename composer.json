@@ -1,0 +1,6 @@
+{
+	"name": "ctf/crackflag",
+	"require": {
+		"monolog/monolog": "^1.22"
+	}
+}
