@@ -45,7 +45,7 @@
 									die("<tbody><tr><td>Err</td><td>Connection Failed</td></tr></tbody>");
 								}
 								$param = "%" . $_GET['search'] . "%";
-								$stmt = $conn->prepare("SELECT * FROM flag WHERE data LIKE ? or subject LIKE ?");
+								$stmt = $conn->prepare("SELECT * FROM crackflag WHERE data LIKE ? or subject LIKE ?");
 								$stmt->bind_param("ss", $param, $param);
 								$stmt->execute();
 								$result = $stmt->get_result();
