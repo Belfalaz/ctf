@@ -1,15 +1,2 @@
-# ctf
-
-My CTF list
-
-### Programming ###
-- Crackflag
--
-
-### Web ###
-- 
-- 
-
-### Steg ###
--
--
+# ctf programming
+BruteFlag: 100 Points
